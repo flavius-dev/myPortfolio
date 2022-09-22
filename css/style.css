@@ -1,0 +1,118 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: rgb(0, 0, 0);}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.w3-jumbo:hover 
+{
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.titlu-animat{
+    animation: lightSpeedInRight ;
+    animation-duration: 5s;
+}
+
+.w3-text-light-grey:hover{
+    animation: fadeIn;
+    animation-duration: 4s;
+}
+
+.w3-padding-16{
+    animation: fadeIn;
+    animation-duration: 2s;
+
+}
+
+.paramedic{
+    animation: lightSpeedInRight ;
+    animation-duration: 2s;
+}
+
+.w3-wide{
+    animation: zoomInDown;
+    animation-duration: 2s
+}
+
+.html-bar{
+    animation: jackInTheBox;
+    animation-duration: 2s;
+    animation: fill 5s linear 1;
+    height: 100%;
+    background-color: rgb(122, 122, 122);
+
+}
+
+.css-bar{
+    animation: jackInTheBox;
+    animation-duration: 2s;
+    animation: fill 7s linear 1;
+    height: 70%;
+    background-color: rgb(122, 122, 122);
+
+}
+
+.js-bar{
+    animation: jackInTheBox;
+    animation-duration: 2s;
+    animation: fill 8s linear 1;
+    height: 20%;
+    background-color: rgb(122, 122, 122);
+
+}
+
+.node-bar{
+    animation: jackInTheBox;
+    animation-duration: 2s;
+    animation: fill 8s linear 1;
+    height: 10%;
+    background-color: rgb(122, 122, 122);
+
+}
+
+@keyframes fill {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 10%;
+    }
+  }
+
+
+
+.w3-white{
+    animation: jackInTheBox;
+    animation-duration: 1s;
+
+}
+
+.w3-section{
+    animation: lightSpeedInRight ;
+    animation-duration: 2s;
+
+}
+
+
+.w3-button{
+    animation: shakeX;
+    animation-duration: 4s;
+    --animate-repeat: 10;
+}
+
+#send-btn{
+    animation: shakeX;
+    animation-duration: 5s;
+}
+
+.w3-padding-160:hover{
+    animation: fadeIn;
+    animation-duration: 4s;
+
+}
+
